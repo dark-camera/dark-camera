@@ -38,7 +38,7 @@ class Application(tk.Frame):
         #self.button.pack(fill=X)
     
     def exit(self, event=' '):
-        self
+        self.master.destroy()
         
         
     
