@@ -1,0 +1,5 @@
+touch rishabh.txt
+ls
+rm rishabh.txt
+ls
+
