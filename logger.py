@@ -44,8 +44,8 @@ class Application(tk.Frame):
     
     def log(self, event=' '):
         content = str(now.strftime("%d-%m-%y %H:%M"))+" -->"+self.text.get() + "\n" +"-"*20 +"\n"
-        main_file = open("/home/anuroop/logger.txt", "a")
-        hidden_file = open("/home/anuroop/.logger", "a")
+        main_file = open("~/logger.txt", "a")
+        hidden_file = open("~/.logger", "a")
         main_file.write(str(content))
         hidden_file.write(str(content))
         main_file.close()
