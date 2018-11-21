@@ -13,9 +13,8 @@ while True:
     i+=1
     cap = cv2.VideoCapture(0)
     ret, frame = cap.read()
-    name = path + '/.image/img' + str(i) + '.png'
+    name = path + '/watcher/img' + str(i) + '.png'
     cv2.imwrite(name,frame)
     cap.release()
     cv2.destroyAllWindows()
-    time.sleep(5)
-
+    time.sleep(10)
